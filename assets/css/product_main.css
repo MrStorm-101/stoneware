@@ -1,0 +1,176 @@
+
+/* 屏幕分布定义 */
+@media (max-width: 1199px) {
+    header{
+        display: none;
+    }
+
+    #product_center_title{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/background1.jpg) no-repeat center;
+        height: 30% !important;
+        width: 100% !important;
+        background-size: 100% 100% !important;
+        color: white !important;
+        
+     }
+
+     #product_center_title h1{
+        position: relative !important;
+        top: 10% !important;
+        left:30% !important;  
+        font-size: 32px !important;
+    }
+
+    footer{
+        background-color: #000000 !important;
+        height: 25% !important;
+        width: 100% !important;
+        color: #ffffff !important;
+    }
+    
+    footer #about_us{
+        display: none;
+    }
+}
+
+/* 。。。。。。。。。。。顶部定义：开始。。。。 */
+header{
+    background: black;
+    color: white;
+    height: 40px;
+}
+
+header span{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+header ul{
+    float: right;
+    position: absolute;
+    right: 30%;
+}
+
+header ul li{
+    float: left;
+    margin: 5px 10px;
+}
+
+header ul li a,a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* 。。。。。。。。。。。顶部定义：结束。。。。 */
+
+/* ...............导航定义：开始................ */
+nav{
+    /* background: #f8f9fa; */
+    height: 70px;
+    display: inline;
+}
+
+nav .container{
+    background: #f8f9fa;
+}
+
+.navbar{
+    width: 100%;
+}
+
+
+
+/* ................产品中心............ */
+#product_center_title{
+   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../image/background1.jpg) no-repeat center;
+   height: 50%;
+   width: 100%;
+   background-size: 100% 100%;
+   color: white;
+}
+
+#product_center_title h1{
+    position: relative;
+    top: 30%;
+    left:50%;  
+}
+
+
+
+/* .............图片展示.......... */
+#product_center_photo #product_center_photo_top{   
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+#product_center_photo .breadcrumb{
+    background: none;
+}
+
+.breadcrumb  a{
+    color: #777;
+}
+
+.breadcrumb  a:hover {
+    color: #777;
+}
+
+#product_center_photo .breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "> ";
+    padding: 0 5px;
+}
+
+#product_center_photo .row button{
+    margin: 0.5em;
+    
+}
+
+/* .............图片展示下半部分.......... */
+#product_center_photo_down {
+    max-width: 1400px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#product_center_photo_down .row img {
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0px 6px 5px rgba(0,0,0,0.2);
+}
+
+/* 结尾部分 */
+footer{
+    background-color: #000000;
+    height: 30%;
+    width: 100%;
+    color: #ffffff;
+}
+
+footer li{
+    color: rgba(255,255,255,0.7);
+    margin-top: 0.5rem;
+}
+
+#contact #contact_left{
+   float: left;
+   width: 60%;
+   
+}
+
+#contact #contact_right{
+    float: right;
+ }
+
+footer .row:last-child{
+    border-top: 1px solid rgba(255,255,255,0.7);
+}
+
+footer .row:last-child span{
+    color: rgba(255,255,255,0.7);
+}
+
+.show_code{
+   
+}
